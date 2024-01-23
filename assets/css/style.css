@@ -129,7 +129,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #1c5b63;
+  background: red;
   height: 80px;
   transition: all 0.5s;
   z-index: 997;
