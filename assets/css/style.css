@@ -157,18 +157,12 @@ h6 {
   margin: 0;
 }
 /* our code */
-@media (min-width: 768px) {
-  .logo {
-    width: 100px;
-  }
-}
+
 @media (max-width: 767px) {
   .logo-link {
-    top: -4px !important;
+    top: 0 !important;
   }
-  .logo {
-    width: 50px;
-  }
+ 
 }
 
 @media (max-width: 768px) {
@@ -331,9 +325,9 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(8, 30, 91, 0.9);
+  background: #1c5b63;
   transition: 0.3s;
-  z-index: 999;
+  z-index: 10;
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -434,7 +428,7 @@ h6 {
 }
 
 #hero .hero-content h2 {
-  color: #fff;
+  color: #1c5b63;
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
@@ -492,7 +486,7 @@ h6 {
 
 #hero .hero-slider::before {
   content: "";
-  background-color: #1c5b6373;
+  background-color: rgba(255 , 255 , 255 , 0.7);
   position: absolute;
   height: 100%;
   width: 100%;
