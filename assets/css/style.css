@@ -160,7 +160,7 @@ h6 {
 
 @media (max-width: 767px) {
   .logo-link {
-    top: 0 !important;
+    top: -6px !important;
   }
  
 }
