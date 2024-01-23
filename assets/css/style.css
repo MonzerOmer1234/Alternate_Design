@@ -129,7 +129,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: blue;
+  background: #1c5b63;
   height: 80px;
   transition: all 0.5s;
   z-index: 997;
@@ -157,17 +157,17 @@ h6 {
   margin: 0;
 }
 /* our code */
-@media (min-width : 768px){
-  .logo{
+@media (min-width: 768px) {
+  .logo {
     width: 100px;
   }
 }
-@media (max-width : 767px){
-  .logo-link{
+@media (max-width: 767px) {
+  .logo-link {
     top: -4px !important;
   }
-  .logo{
-    width: 50px ;
+  .logo {
+    width: 50px;
   }
 }
 
@@ -179,8 +179,6 @@ h6 {
   #header #logo h1 {
     font-size: 34px;
   }
-
-  
 }
 
 .scrolled-offset {
@@ -233,7 +231,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -267,11 +265,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #1c5b63;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -283,7 +281,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -295,7 +293,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -366,7 +364,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #1c5b63;
 }
 
@@ -401,11 +399,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #1c5b63;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -581,11 +579,11 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #6c757d;
@@ -899,7 +897,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -907,7 +908,10 @@ section {
   border: 1px solid #1c5b63;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #1c5b63;
 }
 
@@ -930,7 +934,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1176,7 +1180,6 @@ section {
 }
 
 @media (min-width: 768px) {
-
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
@@ -1219,7 +1222,7 @@ section {
   font-weight: 600;
 }
 
-#contact .php-email-form .error-message br+br {
+#contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1264,7 +1267,7 @@ section {
   background-color: #1c5b63;
 }
 
-#contact .php-email-form button[type=submit] {
+#contact .php-email-form button[type="submit"] {
   background: #1c5b63;
   border: 0;
   border-radius: 3px;
@@ -1274,7 +1277,7 @@ section {
   cursor: pointer;
 }
 
-#contact .php-email-form button[type=submit]:hover {
+#contact .php-email-form button[type="submit"]:hover {
   background: #2dc899;
 }
 
