@@ -1308,3 +1308,66 @@ section {
 #footer .credits a {
   color: #1c1b1b;
 }
+/* products design */
+.products-design{
+  background-color: #039be5;
+  height: 500px;
+}
+.products-design svg{
+
+  width: 40px;
+  height: 40px;
+}
+@media (max-width :767px){
+ 
+  .products-design .row p{
+    width: 40px;
+    height: 40px;
+    text-align: left !important;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 3px;
+  
+  }
+  .eng{
+    position: relative;
+    left: -13px;
+  }
+  .proto{
+    position: relative;
+    left: -6px;
+  }
+}
+.products-design .info{
+  line-height: 2;
+  margin-top: -3rem;
+
+  font-weight: bold;
+}
+@media (max-width : 320px){
+  .products-design .row p{
+    font-size: 10px;
+  }
+  .products-design .info{
+    margin-top: -5rem;
+    line-height: 1.6;
+  }
+}
+
+
+.products-design::after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  top: 90%;
+  width: 100px;
+  height: 100px;
+  background-color: #039be5;
+  transform: translateX(-50%) rotate(45deg);
+ 
+}
+
+#footer .copyright{
+  margin-top: 70px;
+}
