@@ -1376,9 +1376,15 @@ section {
   animation: move 0.3s linear infinite forwards;
   cursor: pointer;
 }
+@media (max-width : 320px){
+  .arrow{
+    left: 65%;
+  }
+}
+
 
 @keyframes move {
   to{
-    transform: translateX(8px);
+    transform: translateX(4px);
   }
 }
