@@ -1372,9 +1372,25 @@ section {
 .arrow{
   left: 80%;
 }
+.arrow-bottom{
+  top: 60%;
+  left: 30%;
+}
+.arrow-left{
+  right: 74%;
+}
+.arrow , .arrow-left , .arrow-bottom{
+  cursor: pointer;
+}
 .arrow:hover{
   animation: move 0.3s linear infinite forwards;
-  cursor: pointer;
+  
+}
+.arrow-bottom:hover{
+  animation: move-down 0.3s linear infinite forwards;
+}
+.arrow-left:hover{
+  animation : move-left 0.3s linear infinite forwards
 }
 @media (max-width : 320px){
   .arrow{
@@ -1386,5 +1402,15 @@ section {
 @keyframes move {
   to{
     transform: translateX(4px);
+  }
+}
+@keyframes move-down {
+  to{
+    transform: translateY(4px);
+  }
+}
+@keyframes move-left {
+  to{
+    transform: translateX(-4px);
   }
 }
