@@ -1372,7 +1372,7 @@ section {
 .arrow{
   left: 80%;
 }
-.arrow-bottom{
+/* .arrow-bottom{
   top: 60%;
   left: 30%;
 }
@@ -1381,17 +1381,17 @@ section {
 }
 .arrow , .arrow-left , .arrow-bottom{
   cursor: pointer;
-}
+} */
 .arrow:hover{
   animation: move 0.3s linear infinite forwards;
   
 }
-.arrow-bottom:hover{
+/* .arrow-bottom:hover{
   animation: move-down 0.3s linear infinite forwards;
 }
 .arrow-left:hover{
   animation : move-left 0.3s linear infinite forwards
-}
+} */
 @media (max-width : 320px){
   .arrow{
     left: 65%;
