@@ -1310,6 +1310,7 @@ section {
 }
 /* products design */
 .products-design{
+  background-color: transparent;
   height: 500px;
 }
 .products-design svg{
@@ -1363,19 +1364,7 @@ section {
 }
 
 
-/* .products-design::after{
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  top: 90%;
-  width: 100px;
-  height: 100px;
-  background-color: #039be5;
-  transform: translateX(-50%) rotate(45deg);
-  z-index: -1
- 
-} */
+
 
 #footer .copyright{
   margin-top: 70px;
