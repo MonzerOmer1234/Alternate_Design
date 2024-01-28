@@ -1324,7 +1324,7 @@ section {
     width: 40px;
     height: 40px;
     text-align: left !important;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     margin-top: 3px;
   
@@ -1337,19 +1337,23 @@ section {
     position: relative;
     left: -6px;
   }
+  .mvp{
+    position: relative;
+    left: 7px;
+  }
 }
 .products-design .info{
   line-height: 2;
-  margin-top: -3rem;
+  margin-top: -2rem;
 
   font-weight: bold;
 }
 @media (max-width : 320px){
   .products-design .row p{
-    font-size: 10px;
+    font-size: 9px;
   }
   .products-design .info{
-    margin-top: -5rem;
+    margin-top: -3rem;
     line-height: 1.6;
   }
 }
@@ -1365,6 +1369,7 @@ section {
   height: 100px;
   background-color: #039be5;
   transform: translateX(-50%) rotate(45deg);
+  z-index: -1
  
 }
 
