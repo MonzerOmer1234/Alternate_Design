@@ -1244,7 +1244,7 @@ section {
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
   border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
+  
 }
 
 #contact .php-email-form input,
@@ -1362,16 +1362,16 @@ section {
 }
 .arrow {
   left: 80%;
-  animation: move 0.3s linear infinite forwards;
+
 }
 .arrow-bottom {
   top: 60%;
   left: 30%;
-  animation: move-down 0.3s linear infinite forwards;
+
 }
 .arrow-left {
   right: 74%;
-  animation: move-left 0.3s linear infinite forwards;
+
 
 }
 .arrow,
@@ -1386,21 +1386,7 @@ section {
   }
 }
 
-@keyframes move {
-  to {
-    transform: translateX(4px);
-  }
-}
-@keyframes move-down {
-  to {
-    transform: translateY(4px);
-  }
-}
-@keyframes move-left {
-  to {
-    transform: translateX(-4px);
-  }
-}
+
 /* new design */
 .gear-top {
   top: -146%;
