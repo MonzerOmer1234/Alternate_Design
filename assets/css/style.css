@@ -1401,6 +1401,7 @@ section {
     transform: translateX(-4px);
   }
 }
+/* new design */
 .gear-top {
   top: -146%;
   left: 74%;
@@ -1488,7 +1489,7 @@ section {
   bottom: 24%;
 }
 @media(max-width :991px){
-  .line{
+  .h-line{
     left: -70% !important;
   }
   .gear-middle{
