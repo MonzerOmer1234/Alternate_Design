@@ -1008,7 +1008,9 @@ section {
 
 #testimonials .testimonial-item p {
   font-style: italic;
-  margin: 0 auto 15px auto;
+  margin: 0 auto 40px auto;
+  width: 100%;
+  height: 150px;
 }
 
 #testimonials .swiper-pagination {
