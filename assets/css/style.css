@@ -141,7 +141,7 @@ h6 {
   background-color: #1c5b63;
   height: 80px;
   transition: all 0.5s;
-  z-index: 997;
+  /* z-index: 997; */
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -1664,17 +1664,19 @@ section {
   box-sizing: border-box;
 }
 
-.product #header {
+
+
+.product .landing{
   height: 700px;
   transition: all 0.5s;
   z-index: 997;
-  background-image: url("../images/JMDA-Product-Design-Services-diagram2-e1474453863484.jpg");
+  background-image: url("../img/JMDA-Product-Design-Services-diagram2-e1474453863484.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgb(90, 100, 110);
 }
-.product #header::before {
+.product .landing::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1683,20 +1685,8 @@ section {
   height: 100%;
   background-color: #000000a1;
 }
-/* start navbar */
-.product .navbar-toggler {
-  border: none;
-}
-.product .navbar-toggler-icon {
-  background-color: transparent;
-  background-image: url("../images/bars.png") !important;
-}
-
-.product .nav-item.active,
-.product .nav-item:hover {
-  border-bottom: 1px solid var(--green-color);
-}
 .product .intro {
+  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
