@@ -19,8 +19,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: 'El Messiri', sans-serif;
-                                             
+  font-family: "El Messiri", sans-serif;
 }
 /* end of change */
 
@@ -619,11 +618,10 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
 }
 
 #about .about-img img {
-  max-width: 100%;
+  width: 100%;
 }
 .about-img button {
   width: 100%;
@@ -634,43 +632,39 @@ section {
   text-align: center;
   line-height: 45px;
   transition: 0.5s;
-}.about-img button:hover{
+}
+.about-img button:hover {
   background: none;
   color: #1c5b63;
 }
-@media (min-width : 992px){
-  .about-img > div:first-child{
+@media (min-width: 992px) {
+  .about-img > div:first-child {
     margin-top: -90px;
-
   }
-  .about-img > div:last-child{
+  .about-img > div:last-child {
     margin-top: -60px;
   }
 }
-@media (max-width : 991px){
-  .about-img > div:first-child{
+@media (max-width: 991px) {
+  .about-img > div:first-child {
     margin-top: -63px;
-
   }
-  .about-img > div:last-child{
+  .about-img > div:last-child {
     margin-top: -50px;
   }
 }
-@media (max-width : 768px){
-  .about-img > div:first-child{
+@media (max-width: 768px) {
+  .about-img > div:first-child {
     margin-top: -30px;
-
   }
-  .about-img > div:last-child{
+  .about-img > div:last-child {
     margin-top: -20px;
   }
-  .about-img > div:last-child button{
+  .about-img > div:last-child button {
     line-height: 30px;
     height: 30px;
   }
 }
-
-
 
 /* end of change */
 
@@ -1664,9 +1658,7 @@ section {
   box-sizing: border-box;
 }
 
-
-
-.product .landing{
+.product .landing {
   height: 700px;
   transition: all 0.5s;
   z-index: 997;
